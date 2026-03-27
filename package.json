@@ -1,0 +1,29 @@
+{
+  "name": "naija-pay",
+  "version": "1.0.0",
+  "description": "Simplified Paystack integration for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "paystack",
+    "nigeria",
+    "payment",
+    "react",
+    "typescript"
+  ],
+  "author": "Elizabeth Aderibigbe <softcodestudio44@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
